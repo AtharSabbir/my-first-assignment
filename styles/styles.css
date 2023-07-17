@@ -1,0 +1,47 @@
+/* header related styles */
+header{
+    display: flex;
+}
+.first-box{
+    padding: 50px 240px 50px 240px;
+    background-color: rgba(229, 84, 115, 0.10);
+    width: 1920px;
+    height: 850px;
+    flex-shrink: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    border: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 20px 40px;
+}
+.main-flower{
+    margin-bottom: 0px;
+    width: 635px;
+    height: 800px;
+}
+.lets{
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 30px;
+    text-size-adjust:bold;
+}
+.paragraph{
+    color: rgba(39, 39, 39, 0.60);
+        font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-bottom: 30px;
+}
