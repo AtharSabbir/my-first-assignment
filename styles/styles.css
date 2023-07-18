@@ -2,7 +2,7 @@
 header{
     display: flex;
 }
-.first-box{
+.banner{
     padding: 50px 240px 50px 240px;
     background-color: rgba(229, 84, 115, 0.10);
     width: 1920px;
@@ -23,8 +23,8 @@ header{
 }
 .main-flower{
     margin-bottom: 0px;
-    width: 635px;
-    height: 800px;
+    width: -635px;
+    height: -800px;
 }
 .lets{
     color: #272727;
@@ -44,4 +44,77 @@ header{
     font-weight: 400;
     line-height: 30px; /* 166.667% */
     margin-bottom: 30px;
+}
+/* main section style */
+.main{
+    background-color: #fff;
+    margin: 360px auto;
+    align-content: center;
+}
+
+/* section one */
+.section-one{
+    padding: 360px 240px 640px 240px;
+    display: flex;
+    justify-content: space-between;
+    margin: 360px 240px 640px 240px;
+    max-width: 100px;
+}
+.section-one-flower-1{
+    padding: 100px, 80px 0px 80px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+    margin: 360px 25px 640px 240px;
+    
+}
+.section-one-flower-2{
+    padding: 100px, 80px 0px 80px;border-radius: 300px 300px 0px 0px;
+    background-color: rgba(5, 151, 160, 0.15);
+    margin: 360px 25px 640px 240px;
+}
+.section-one-flower-3{
+    padding: 100px, 80px 0px 80px;border-radius: 300px 300px 0px 0px;
+    background-color: rgba(71, 125, 17, 0.15);
+    margin: 360px 25px 640px 240px;
+}
+
+/* <!-- second section --> */
+span{
+    color:#E55473;
+}
+.second-section-flex{
+    display: flex;
+}
+.main-2{
+    padding:200px 400px 200px 400px ;
+    width: 1922px;
+    height: 620px;
+    flex-shrink: 0;
+
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+}
+.instagram{
+    margin: auto;
+    justify-content: space-between;
+    width: 1920px;
+    height: 100px;
+    background-color: #FFF;
+    align-content: center;
+}
+.section-three{
+    display: flex;
+    padding: ;
+}
+.section-three-flower-1{
+    margin: 300px 24px 100px 240px;
+}
+.section-three-flower-2{
+    margin:300px 24px 100px 24px;
+}
+.section-three-flower-3{
+    margin:300px 24px 100px 24px;
+}
+.section-three-flower-4{
+    margin:300px 240px 100px 24px;
 }
