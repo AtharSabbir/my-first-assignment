@@ -118,3 +118,13 @@ span{
 .section-three-flower-4{
     margin:300px 240px 100px 24px;
 }
+
+/* footer related styles */
+.footer{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.90);
+    justify-content: space-between;
+}
+.paragraph{
+
+}
